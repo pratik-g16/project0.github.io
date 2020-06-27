@@ -1,0 +1,116 @@
+$color: #0000ff;
+$color2:#ff6699;
+$color3:#336699;
+@media (min-width:1281px)
+		{
+			h1::before{
+				content: "Do you look like this by the time you find the right tv show?";
+			}
+			
+			h2{
+				display: none;
+				}
+				#head
+				{
+					margin-top:18%;
+				}
+			#p{
+				margin-left: 15%;
+			}
+
+		}
+@media (max-width:1280px)
+{
+	h2::before{
+		content:"Do you look like this by the time you find the right tv show?";
+			}
+			h1{
+				display: none;
+			}
+			#head
+			{
+				margin-top:16%;
+			}
+			#p{
+				margin-left: 10%;
+				margin-top: -2%;
+			}
+		}
+
+@media(max-width:1020px)
+{
+	h1,h2{
+		display: none;
+	}
+	h3::before{
+		content: "Do you look like this by the time you find the right tv show?";
+	}
+	img{
+		margin-left: 16%;
+	}
+	#head
+	{
+		margin-top:-5%;
+	}
+
+}
+.row
+{
+	margin-top: 7px;
+	margin-left:10px;
+	a{
+
+		color: blue;
+   	}
+   	a:hover{
+   		background-color:blue;
+   		color: white;
+   	}
+}
+nav
+{
+
+	border: 1px solid black;
+	background-color: blue;
+	padding: 2px;
+	margin-left:5px;
+	
+	
+}
+%h
+{
+	padding: 10px;
+	color: $color;
+	margin-left:53%;
+	margin-top: -20%;
+}
+h1{
+	@extend %h;
+}
+h2{
+	@extend %h;
+}
+h3
+{
+	@extend %h;
+	margin-top: -22%;
+}
+
+img{
+	padding:10px;
+	margin-left:13%;
+	margin-top:-167px;
+}
+#head{
+	padding:40px;
+	color:$color2;
+	margin-left: 63%;
+	font-size: 25px;
+	font-weight: bold;
+}	
+#p{
+	padding:40px;
+	color:$color3;
+	font-size:20px;
+	font-weight: bold;
+}
