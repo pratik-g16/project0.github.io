@@ -1,5 +1,11 @@
+body {
+  background-color: #2A3B6D; }
+
+#v-pills-home-tab {
+  background-color: #D83F87; }
+
 @media (min-width: 1281px) {
-  h1::before {
+  #h1u::before {
     content: "Do you look like this by the time you find the right tv show?"; }
 
   h2 {
@@ -9,12 +15,13 @@
     margin-top: 18%; }
 
   #p {
-    margin-left: 15%; } }
+    margin-top: 20px;
+    margin-left: 12%; } }
 @media (max-width: 1280px) {
   h2::before {
     content: "Do you look like this by the time you find the right tv show?"; }
 
-  h1 {
+  #h1u {
     display: none; }
 
   #head {
@@ -24,7 +31,7 @@
     margin-left: 10%;
     margin-top: -2%; } }
 @media (max-width: 1020px) {
-  h1, h2 {
+  #h1u, h2 {
     display: none; }
 
   h3::before {
@@ -39,20 +46,20 @@
   margin-top: 7px;
   margin-left: 10px; }
   .row a {
-    color: blue; }
+    color: #D83F87; }
   .row a:hover {
-    background-color: blue;
+    background-color: #D83F87;
     color: white; }
 
 nav {
   border: 1px solid black;
-  background-color: blue;
+  background-color: #D83F87;
   padding: 2px;
   margin-left: 5px; }
 
-h1, h2, h3 {
+#h1u, h2, h3 {
   padding: 10px;
-  color: #0000ff;
+  color: white;
   margin-left: 53%;
   margin-top: -20%; }
 
@@ -66,15 +73,37 @@ img {
 
 #head {
   padding: 40px;
-  color: #ff6699;
+  color: #D83F87;
   margin-left: 63%;
   font-size: 25px;
   font-weight: bold; }
 
 #p {
   padding: 40px;
-  color: #336699;
+  color: #A4B3B6;
   font-size: 20px;
   font-weight: bold; }
+
+#h1d {
+  color: #D83F87;
+  margin-left: 20%;
+  font-family: "Sofia";
+  font-size: 55px; }
+
+#ul1 {
+  color: #17E9E0;
+  margin-left: 20%; }
+  #ul1 .genre {
+    font-family: "Sofia";
+    font-size: 40px;
+    color: #17E9E0; }
+  #ul1 a:hover {
+    color: white;
+    background-color: #D83F87; }
+
+#jake {
+  height: 20%;
+  margin-left: 50%;
+  margin-top: -20%; }
 
 /*# sourceMappingURL=project0.css.map */
