@@ -5,7 +5,12 @@ $color4:#2A3B6D; //blue
 $color5:#17E9E0; //light blue
 body{
 	background-color:$color4;
-} 
+
+}
+p::selection {
+			color: $color1;
+			background-color:$color3;
+		} 
 #v-pills-home-tab
 {
 	background-color:$color3;
@@ -154,3 +159,48 @@ img{
 	margin-top: -20%;
 }
 
+.pages
+{
+	margin-top: -10px;
+	padding:3px;
+	margin-left: 10px;
+	background-color: $color1;
+	color: $color3;
+	a:hover{
+	background-color:$color3;
+	color: $color1;
+	transform: scale(1.5);
+	}
+}
+#page1
+{
+	margin-left:80%;
+	background-color:$color3;
+	color: $color1;
+}
+
+form{
+height: 22%;
+width: 73%;
+background-color: $color3;
+border-radius: 15px;
+margin:auto;
+margin-top:-5%;
+margin-left:3%;
+p{
+	margin-top: 5%;
+	margin-left: 3%;
+	font-family: sofia;
+	font-style:bold;
+	font-size:25px;
+	color: $color1;
+
+}
+input
+{
+	margin-top: -1%;
+	margin-left: 100px;
+	color: $color1;
+	background-color:$color4;
+}
+}
