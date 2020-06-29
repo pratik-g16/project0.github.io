@@ -1,6 +1,10 @@
 body {
   background-color: #2A3B6D; }
 
+p::selection {
+  color: white;
+  background-color: #D83F87; }
+
 #v-pills-home-tab {
   background-color: #D83F87; }
 
@@ -105,5 +109,42 @@ img {
   height: 20%;
   margin-left: 50%;
   margin-top: -20%; }
+
+.pages {
+  margin-top: -10px;
+  padding: 3px;
+  margin-left: 10px;
+  background-color: white;
+  color: #D83F87; }
+  .pages a:hover {
+    background-color: #D83F87;
+    color: white;
+    transform: scale(1.5); }
+
+#page1 {
+  margin-left: 80%;
+  background-color: #D83F87;
+  color: white; }
+
+form {
+  height: 22%;
+  width: 73%;
+  background-color: #D83F87;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: -5%;
+  margin-left: 3%; }
+  form p {
+    margin-top: 5%;
+    margin-left: 3%;
+    font-family: sofia;
+    font-style: bold;
+    font-size: 25px;
+    color: white; }
+  form input {
+    margin-top: -1%;
+    margin-left: 100px;
+    color: white;
+    background-color: #2A3B6D; }
 
 /*# sourceMappingURL=project0.css.map */
