@@ -3,6 +3,8 @@ $color2:#A4B3B6; //gray
 $color3:#D83F87; //pink
 $color4:#2A3B6D; //blue
 $color5:#17E9E0; //light blue
+
+
 body{
 	background-color:$color4;
 
@@ -11,9 +13,18 @@ p::selection {
 			color: $color1;
 			background-color:$color3;
 		} 
-#v-pills-home-tab
+
+%navbar
 {
 	background-color:$color3;
+	color: $color1;
+}
+#div1
+{
+#home
+{
+	@extend %navbar;
+}
 }
 @media (min-width:1281px)
 		{
@@ -51,6 +62,7 @@ p::selection {
 				margin-left: 10%;
 				margin-top: -2%;
 			}
+			
 		}
 
 @media(max-width:1020px)
@@ -90,8 +102,6 @@ nav
 	background-color: $color3;
 	padding: 2px;
 	margin-left:5px;
-	
-	
 }
 %h
 {
@@ -159,26 +169,6 @@ img{
 	margin-top: -20%;
 }
 
-.pages
-{
-	margin-top: -10px;
-	padding:3px;
-	margin-left: 10px;
-	background-color: $color1;
-	color: $color3;
-	a:hover{
-	background-color:$color3;
-	color: $color1;
-	transform: scale(1.5);
-	}
-}
-#page1
-{
-	margin-left:80%;
-	background-color:$color3;
-	color: $color1;
-}
-
 form{
 height: 22%;
 width: 73%;
@@ -204,3 +194,99 @@ input
 	background-color:$color4;
 }
 }
+
+#submit
+{
+	font-family: sofia;
+	margin-left: 5px;
+}
+
+%pages{
+
+margin-left: 2%;
+color: black;
+background-color:$color1;
+padding: 5px;
+}
+
+.pages1
+{
+	@extend %pages;
+}
+
+#page2:hover,#page3:hover,#page4:hover,#submit:hover
+{
+	@extend %hover;
+}
+#page1
+{
+	color: $color1;
+	padding: 5px;
+	background-color:$color3;
+	margin-left: 80%;
+}
+
+%hover
+{
+	background-color:$color3;
+	color: $color1;
+	transform: scale(1.5);
+}
+
+
+
+
+//scss for page 1 starts from here
+#h11
+{
+	color: $color1;
+	font-family: sofia;
+	text-align: center;
+	margin-top: -10%;
+}
+#div2
+{
+	#sitcom
+	{
+	@extend %navbar;
+	}
+}
+
+#table1
+{
+	border:1px solid $color1 ;
+	width: 70%;
+	font-family: sofia;
+	color: $color3;
+	font-style: bold;
+	font-size: 22px;
+	margin-left: 20%;
+	margin-top: 5%;
+}
+
+a.sitcom-links
+{
+		color: $color5;
+}
+a.sitcom-links:hover
+{
+		@extend %hover;
+}
+#text
+{
+	width: 65%;
+}
+%review
+{
+	font-family: sofia;
+	font-size: 22px;
+	font-style: bold;
+	color: $color3;
+	margin-top: 2%;
+	margin-left: 2%;
+}
+#b99
+{
+	@extend %review;
+}
+
