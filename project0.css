@@ -5,8 +5,9 @@ p::selection {
   color: white;
   background-color: #D83F87; }
 
-#v-pills-home-tab {
-  background-color: #D83F87; }
+#div1 #home, #div2 #sitcom {
+  background-color: #D83F87;
+  color: white; }
 
 @media (min-width: 1281px) {
   #h1u::before {
@@ -110,22 +111,6 @@ img {
   margin-left: 50%;
   margin-top: -20%; }
 
-.pages {
-  margin-top: -10px;
-  padding: 3px;
-  margin-left: 10px;
-  background-color: white;
-  color: #D83F87; }
-  .pages a:hover {
-    background-color: #D83F87;
-    color: white;
-    transform: scale(1.5); }
-
-#page1 {
-  margin-left: 80%;
-  background-color: #D83F87;
-  color: white; }
-
 form {
   height: 22%;
   width: 73%;
@@ -146,5 +131,56 @@ form {
     margin-left: 100px;
     color: white;
     background-color: #2A3B6D; }
+
+#submit {
+  font-family: sofia;
+  margin-left: 5px; }
+
+.pages1 {
+  margin-left: 2%;
+  color: black;
+  background-color: white;
+  padding: 5px; }
+
+#page1 {
+  color: white;
+  padding: 5px;
+  background-color: #D83F87;
+  margin-left: 80%; }
+
+#page2:hover, #page3:hover, #page4:hover, #submit:hover, a.sitcom-links:hover {
+  background-color: #D83F87;
+  color: white;
+  transform: scale(1.5); }
+
+#h11 {
+  color: white;
+  font-family: sofia;
+  text-align: center;
+  margin-top: -10%; }
+
+#table1 {
+  border: 1px solid white;
+  width: 70%;
+  font-family: sofia;
+  color: #D83F87;
+  font-style: bold;
+  font-size: 22px;
+  margin-left: 20%;
+  margin-top: 5%; }
+
+a.sitcom-links {
+  color: #17E9E0; }
+
+#text {
+  width: 65%; }
+
+#b99 {
+  font-family: sofia;
+  font-size: 22px;
+  font-style: bold;
+  color: #D83F87;
+  margin-top: 2%;
+  margin-left: 2%; }
 
 /*# sourceMappingURL=project0.css.map */
