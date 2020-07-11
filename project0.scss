@@ -209,12 +209,17 @@ background-color:$color1;
 padding: 5px;
 }
 
+#submit:hover
+{
+	@extend %hover;
+}
+#body1{
 .pages1
 {
 	@extend %pages;
 }
 
-#page2:hover,#page3:hover,#page4:hover,#submit:hover
+#page2:hover,#page3:hover,#page4:hover
 {
 	@extend %hover;
 }
@@ -225,7 +230,7 @@ padding: 5px;
 	background-color:$color3;
 	margin-left: 80%;
 }
-
+}
 %hover
 {
 	background-color:$color3;
@@ -252,7 +257,7 @@ padding: 5px;
 	}
 }
 
-#table1
+#table
 {
 	border:1px solid $color1 ;
 	width: 70%;
@@ -274,6 +279,8 @@ a.sitcom-links:hover
 }
 #text
 {
+	margin-left:23%;
+	margin-top: 10%;
 	width: 65%;
 }
 %review
@@ -285,8 +292,49 @@ a.sitcom-links:hover
 	margin-top: 2%;
 	margin-left: 2%;
 }
-#b99
+.sitcom
+{
+	padding:10px;
+}
+#b99,#himym,#bbt,#friends,#thmen 
 {
 	@extend %review;
+	margin-top: -15%;
+}
+#head1b99,#head1bbt,#head1himym,#head1friends,#head1thmen
+{
+	font-family: sofia;
+	margin-left: -10%;
+	margin-top: -15%;
+	text-align:center;
+	color: $color1;
+	padding:40px;
+	font-size: 25px;
+	font-weight: bold;
+}
+#pic
+{
+	margin-left: -15%;
+	margin-top: -8%;	
 }
 
+#body2{
+.pages1
+{
+	@extend %pages;
+}
+
+#page1:hover,#page3:hover,#page4:hover
+{
+	@extend %hover;
+}
+#page1{
+	margin-left: 80%;
+}
+#page2
+{
+	color: $color1;
+	padding: 5px;
+	background-color:$color3;
+}
+}
