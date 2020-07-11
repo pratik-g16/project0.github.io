@@ -136,19 +136,19 @@ form {
   font-family: sofia;
   margin-left: 5px; }
 
-.pages1 {
+#body1 .pages1, #body2 .pages1 {
   margin-left: 2%;
   color: black;
   background-color: white;
   padding: 5px; }
 
-#page1 {
+#body1 #page1 {
   color: white;
   padding: 5px;
   background-color: #D83F87;
   margin-left: 80%; }
 
-#page2:hover, #page3:hover, #page4:hover, #submit:hover, a.sitcom-links:hover {
+#submit:hover, #body1 #page2:hover, #body1 #page3:hover, #body1 #page4:hover, a.sitcom-links:hover, #body2 #page1:hover, #body2 #page3:hover, #body2 #page4:hover {
   background-color: #D83F87;
   color: white;
   transform: scale(1.5); }
@@ -159,7 +159,7 @@ form {
   text-align: center;
   margin-top: -10%; }
 
-#table1 {
+#table {
   border: 1px solid white;
   width: 70%;
   font-family: sofia;
@@ -173,14 +173,43 @@ a.sitcom-links {
   color: #17E9E0; }
 
 #text {
+  margin-left: 23%;
+  margin-top: 10%;
   width: 65%; }
 
-#b99 {
+#b99, #himym, #bbt, #friends, #thmen {
   font-family: sofia;
   font-size: 22px;
   font-style: bold;
   color: #D83F87;
   margin-top: 2%;
   margin-left: 2%; }
+
+.sitcom {
+  padding: 10px; }
+
+#b99, #himym, #bbt, #friends, #thmen {
+  margin-top: -15%; }
+
+#head1b99, #head1bbt, #head1himym, #head1friends, #head1thmen {
+  font-family: sofia;
+  margin-left: -10%;
+  margin-top: -15%;
+  text-align: center;
+  color: white;
+  padding: 40px;
+  font-size: 25px;
+  font-weight: bold; }
+
+#pic {
+  margin-left: -15%;
+  margin-top: -8%; }
+
+#body2 #page1 {
+  margin-left: 80%; }
+#body2 #page2 {
+  color: white;
+  padding: 5px;
+  background-color: #D83F87; }
 
 /*# sourceMappingURL=project0.css.map */
