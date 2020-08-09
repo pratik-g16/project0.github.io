@@ -5,7 +5,7 @@ p::selection {
   color: white;
   background-color: #D83F87; }
 
-#div1 #home, #div2 #sitcom {
+#div1 #home, #div2 #sitcom, #div3 #drama, #div4 #crime {
   background-color: #D83F87;
   color: white; }
 
@@ -136,7 +136,7 @@ form {
   font-family: sofia;
   margin-left: 5px; }
 
-#body1 .pages1, #body2 .pages1 {
+#body1 .pages1, #body2 .pages1, #body3 .pages1, #body4 .pages1 {
   margin-left: 2%;
   color: black;
   background-color: white;
@@ -148,7 +148,7 @@ form {
   background-color: #D83F87;
   margin-left: 80%; }
 
-#submit:hover, #body1 #page2:hover, #body1 #page3:hover, #body1 #page4:hover, a.sitcom-links:hover, #body2 #page1:hover, #body2 #page3:hover, #body2 #page4:hover {
+#submit:hover, #body1 #page2:hover, #body1 #page3:hover, #body1 #page4:hover, a.links:hover, #body2 #page1:hover, #body2 #page3:hover, #body2 #page4:hover, #body3 #page1:hover, #body3 #page2:hover, #body3 #page4:hover, #body4 #page1:hover, #body4 #page2:hover, #body4 #page3:hover {
   background-color: #D83F87;
   color: white;
   transform: scale(1.5); }
@@ -169,7 +169,7 @@ form {
   margin-left: 20%;
   margin-top: 5%; }
 
-a.sitcom-links {
+a.links {
   color: #17E9E0; }
 
 #text {
@@ -177,7 +177,7 @@ a.sitcom-links {
   margin-top: 10%;
   width: 65%; }
 
-#b99, #himym, #bbt, #friends, #thmen {
+#b99, #himym, #bbt, #friends, #thmen, #bb, #got, #pb, #house, #lucifer, #mh, #sh, #dexter, #narcos {
   font-family: sofia;
   font-size: 22px;
   font-style: bold;
@@ -185,13 +185,13 @@ a.sitcom-links {
   margin-top: 2%;
   margin-left: 2%; }
 
-.sitcom {
+.sitcom, .drama, .crime {
   padding: 10px; }
 
-#b99, #himym, #bbt, #friends, #thmen {
+#b99, #himym, #bbt, #friends, #thmen, #bb, #got, #pb, #house, #lucifer, #mh, #sh, #dexter, #narcos {
   margin-top: -15%; }
 
-#head1b99, #head1bbt, #head1himym, #head1friends, #head1thmen {
+#head1b99, #head1bbt, #head1himym, #head1friends, #head1thmen, #head1bb, #head1got, #head1pb, #head1house, #head1lucifer, #head1mh, #head1sh, #head1d, #head1n {
   font-family: sofia;
   margin-left: -10%;
   margin-top: -15%;
@@ -208,6 +208,20 @@ a.sitcom-links {
 #body2 #page1 {
   margin-left: 80%; }
 #body2 #page2 {
+  color: white;
+  padding: 5px;
+  background-color: #D83F87; }
+
+#body3 #page1 {
+  margin-left: 80%; }
+#body3 #page3 {
+  color: white;
+  padding: 5px;
+  background-color: #D83F87; }
+
+#body4 #page1 {
+  margin-left: 80%; }
+#body4 #page4 {
   color: white;
   padding: 5px;
   background-color: #D83F87; }
