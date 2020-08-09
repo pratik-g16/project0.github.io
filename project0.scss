@@ -241,7 +241,7 @@ padding: 5px;
 
 
 
-//scss for page 1 starts from here
+//scss for page 2 starts from here
 #h11
 {
 	color: $color1;
@@ -269,11 +269,11 @@ padding: 5px;
 	margin-top: 5%;
 }
 
-a.sitcom-links
+a.links
 {
 		color: $color5;
 }
-a.sitcom-links:hover
+a.links:hover
 {
 		@extend %hover;
 }
@@ -292,16 +292,16 @@ a.sitcom-links:hover
 	margin-top: 2%;
 	margin-left: 2%;
 }
-.sitcom
+.sitcom,.drama,.crime
 {
 	padding:10px;
 }
-#b99,#himym,#bbt,#friends,#thmen 
+#b99,#himym,#bbt,#friends,#thmen,#bb,#got,#pb,#house,#lucifer,#mh,#sh,#dexter,#narcos
 {
 	@extend %review;
 	margin-top: -15%;
 }
-#head1b99,#head1bbt,#head1himym,#head1friends,#head1thmen
+#head1b99,#head1bbt,#head1himym,#head1friends,#head1thmen,#head1bb,#head1got,#head1pb,#head1house,#head1lucifer,#head1mh,#head1sh,#head1d,#head1n
 {
 	font-family: sofia;
 	margin-left: -10%;
@@ -332,6 +332,70 @@ a.sitcom-links:hover
 	margin-left: 80%;
 }
 #page2
+{
+	color: $color1;
+	padding: 5px;
+	background-color:$color3;
+}
+}
+
+//css for page 3 starts from here
+#div3
+{
+	#drama
+	{
+	@extend %navbar;
+	}
+}
+
+#body3
+{
+.pages1
+{
+	@extend %pages;
+}
+
+#page1:hover,#page2:hover,#page4:hover
+{
+	@extend %hover;
+}
+#page1{
+	margin-left: 80%;
+}
+#page3
+{
+	color: $color1;
+	padding: 5px;
+	background-color:$color3;
+}
+
+}
+
+
+// css for page 4
+#div4
+{
+	#crime
+	{
+	@extend %navbar;
+	}
+}
+
+#body4
+{
+
+.pages1
+{
+	@extend %pages;
+}
+#page1:hover,#page2:hover,#page3:hover
+{
+	@extend %hover;
+}
+#page1{
+	margin-left: 80%;
+}
+#page4
 {
 	color: $color1;
 	padding: 5px;
